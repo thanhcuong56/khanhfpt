@@ -47,6 +47,7 @@ h2 {
   margin: 20px 0;
   text-align: center;
   color: #ff6600;
+  line-height: 1.2;
 }
 
 header p {
@@ -218,6 +219,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  section {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
   .features .grid {
     flex-direction: column;
   }
@@ -237,5 +244,11 @@ footer {
   }
   .box-gird-wrapper .col-4 {
     flex: 1 1 100%;
+  }
+  .slick-next {
+    right: -5px;
+  }
+  .slick-prev {
+    left: -5px;
   }
 }
