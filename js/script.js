@@ -4,4 +4,6 @@ $('.slider').slick({
     speed: 500,
     slidesToShow: 1,
     arrow: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
 });
